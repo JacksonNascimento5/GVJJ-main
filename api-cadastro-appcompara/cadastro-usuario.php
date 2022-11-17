@@ -10,7 +10,7 @@ header('Content-Type: application/json; charset=utf-8');
 //Variavel que recebe os dados via Json
 $_POST = json_decode(file_get_contents("php://input"),true);
 
-//Pegando os dados do Json e guardando em variaveis
+//Pegando os dados do Json e guardando em VARIAVEIS
 $Id_Responsavel = $_POST['IdResponsavel']
 $Cnpj = $_POST['Cnpj'];
 $nomeFantasia = $_POST['nomeFantasia']; 
